@@ -140,5 +140,6 @@ $RECYCLE.BIN/
 
 
 # Idea è VS Code
-idea/
-vscode/
+.idea/
+.vscode/
+.vs/
