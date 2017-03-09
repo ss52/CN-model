@@ -139,7 +139,7 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# Idea è VS Code
+# Idea and VS Code
 .idea/
 .vscode/
 .vs/
