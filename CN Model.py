@@ -14,7 +14,12 @@ n = 1.5         # variable order leaching parameter
 res_x = [0, 2, 4, 24, 46]
 res_y = [g0, 10.86, 8.16, 3.66, 3.57]
 
-def Eq(g, t):    # f(x) Mintec CN model (Deventer 2001)
+
+def Eq(g, t): 
+    """
+    Input: g - gold grade, t - time
+    Return equation Mintec CN model (Deventer 2001)
+    """
     return -k * ((g - g0 * g_ref) ** n)
 
 time = np.linspace(0.0, 50.0)
